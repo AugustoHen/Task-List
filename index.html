@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/index.css" rel="stylesheet">
+    <title>Task List</title>
+    <script src="https://kit.fontawesome.com/c19e9be1b9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="main">
+            
+            <form class="main-form">
+                <h1>Task List</h1>
+
+                <label for="task">Task:</label>
+                <input id="task" type="text" class="task">
+
+                <label for="priority">Priority:</label>
+                <input id="priority" class="priority" type="number" step="1" max="5" min="1">
+
+                <label for="today">Creation Date:</label>
+                <input id="today" class="today" type="datetime-local" >
+
+                <label for="conclusiondate">Conclusion Date:</label>
+                <input id="conclusiondate" class="time" type="datetime-local">
+
+                <button type="submit" class="save">Save</button>
+            </form>
+
+            <h1>Tasks</h1>
+            <table class="result">
+                <tr>
+                    <td class="head-table">Task</td>
+                    <td class="head-table">priority</td>
+                    <td class="head-table">Creation Date</td>
+                    <td class="head-table">Conclusion Date</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    
+    <script src="script/index.js"></script>
+</body>
+</html>
