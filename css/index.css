@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&family=Cinzel+Decorative:wght@400;700;900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Story+Script&display=swap');
+
 body {
     display: flex;
     justify-content: center; 
     align-items: center;     
     height: 100vh;      
-    width: 100vw;     
+    width: 100vw; 
+    background-color: rgb(27, 67, 81);
+
 }
 
 section{
@@ -11,45 +15,110 @@ section{
     display: flex;
     justify-content: center;
 }
+.main-form h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+label {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+
+input{
+    font-family: "Story Script", Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+
+.save{
+    border: 0px;
+    background-color: rgb(248, 248, 248);
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.save:hover{
+    font-size: 35px;
+    color: white;
+    background-image: linear-gradient(to right,rgb(27, 67, 81), rgb(118, 131, 136) );
+}
 
 .main-form{
-    width: 500px;
-    height: 400px;
-    background: lightblue;
+    width: 400px;
+    height: 350px;
+    background: rgb(248, 248, 248);
     align-items: center;
     justify-content: center;
     align-content: center;
     display: grid;
-    grid-template-columns: 100px 300px;
+    grid-template-columns: 100px 200px;
     grid-template-rows: repeat(6, 50px);
     border-radius: 20px;
     font-size: 20px;
     border: solid 3px black;
     margin-bottom: 20px;
+    font-family: "Story Script";
+    
 }
 
 .main-form button, h1{
     grid-column: 2 span;
     text-align: center;
+    font-family: "Story Script";
+    font-size: 30px;
+}
+
+.tasks-head{
+    font-size: 45px;
+    font-weight: 400;
+    color: azure;
+    margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .result{
-    background-color: green;
     width: 200%;
-    margin-left: -200px;
+    margin-left: -100px;
+    font-family: "Story Script";
 }
 
 table{
-    border: solid 2px black;
     border-radius: 10px;
+    border-collapse: collapse;
+    background-color: rgb(27, 67, 81);
+
 }
 
 table td{
-    border: solid 1px black;
     text-align: center;
+    border: solid 1px black;
+    background-color: white;
+    padding: 5px;
+}
+
+.del-button, .edit-button{
+    border: none;
+    background-color: rgb(27, 67, 81);
+    font-size: 20px;
+    margin-left: 10px ;
+    color: rgb(0, 0, 0);
+}
+
+
+.del-button:hover, .edit-button:hover{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
 }
 
 .head-table{
     font-size: 20px;
     font-weight: bold;
+    background-color: antiquewhite;
 }
+
+
