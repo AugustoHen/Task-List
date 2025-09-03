@@ -5,7 +5,7 @@ Aplicação simples de lista de tarefas feita com **HTML, CSS e JavaScript**, co
 ## 🚀 Funcionalidades
 - Adicionar novas tarefas com:
   - Nome da tarefa
-  - Prioridade (1 a 5)
+  - Prioridade (de baixa à alta)
   - Data de criação
   - Data de conclusão
 - Editar tarefas existentes
@@ -35,7 +35,7 @@ A simple **To-Do List app** built with **HTML, CSS, and JavaScript**, supporting
 ## 🚀 Features
 - Add new tasks with:
   - Task name
-  - Priority (1 to 5)
+  - Priority (low to High)
   - Creation date
   - Conclusion date
 - Edit existing tasks
