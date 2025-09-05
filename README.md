@@ -2,6 +2,9 @@
 
 Aplicação simples de lista de tarefas feita com **HTML, CSS e JavaScript**, com suporte a criação, edição, exclusão e persistência de dados via **Local Storage**.
 
+## 🔗 Demo Online
+[Task List funcionando]((https://augustohen.github.io/Task-List/))
+
 ## 🚀 Funcionalidades
 - Adicionar novas tarefas com:
   - Nome da tarefa
